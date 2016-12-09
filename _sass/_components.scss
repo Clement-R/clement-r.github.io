@@ -24,7 +24,8 @@ code {
     width: 100%;
 
     @media (min-width: $breakpoint-lg) {
-      width: (10 / 12 * 100%); // matches col-10
+      // width: (10 / 12 * 100%); // matches col-10
+      width: 100%;
     }
 
   }

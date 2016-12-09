@@ -6,6 +6,38 @@ $blue-small: #007AB3;
 $gray: #45474A;
 $white: #fff;
 
+$flat-green: #27ae60;
+$flat-blue: #2980b9;
+$flat-orange: #d35400;
+
+$flat-bright-orange: #e67e22;
+$flat-bright-red: #e74c3c;
+$flat-bright-blue: #3498db;
+$flat-bright-green: #2ecc71;
+$flat-bright-yellow: #f1c40f;
+
+$chalk-red: #AB4642;
+$chalk-green: #A1B56C;
+$chalk-blue: #7cafc2;
+$chalk-magenta: #b48baf;
+$chalk-cyan: #86c1b9;
+$chalk-white: #d8d8d8;
+$chalk-brown: #a16946;
+$chalk-black: #282828;
+$chalk-gray: #383838;
+
+$chalk-bright-black: #585858;
+$chalk-bright-red: #ab4642;
+$chalk-bright-green: #a1b56c;
+$chalk-bright-yellow: #f7ca88;
+$chalk-bright-blue: #7cafc2;
+$chalk-bright-magenta: #ba8baf;
+$chalk-bright-cyan: #86c1b9;
+$chalk-bright-white: #f8f8f8;
+$chalk-bright-brown: #dc9656;
+$chalk-bright-gray: #b8b8b8;
+$chalk-brighter-white: #e8e8e8;
+
 // Config
 $color-background: $gray !default;
 $color-dot-accent: $blue !default;
@@ -30,3 +62,20 @@ $color-primary-link: $blue !default;
         "components",
         "utilities"
 ;
+
+// Home
+#personal-project-border {
+	color: $flat-bright-blue;
+	border-bottom: 3px solid;
+}
+
+#school-project-border {
+	color: $flat-bright-blue;
+	border-bottom: 3px solid;
+}
+
+// Post
+.home-project-background {
+	background-clip:content-box;
+	background-color: $chalk-brighter-white;
+}
