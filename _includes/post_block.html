@@ -4,8 +4,7 @@
 		<h2 class="h3 lh-condensed mt-1">
 	    	<a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  	</h2>
-	  	<img src={{ post.thumb }} alt="">
-	  	<p>{{ post.content | strip_html | truncatewords:30 }}</p>
+	  	<a href={{post.page_link}} target="_blank"><img src={{ post.thumb }} alt="" style="max-width: 100%; height: auto;"></a>
+	  	<p>{{ post.excerpt}}</p>
 	</div>
-  <!-- <a class="no-underline h5 bold text-accent" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a> -->
 </div>
