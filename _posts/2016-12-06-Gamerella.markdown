@@ -11,3 +11,4 @@ Marie Lou Boisaubert (Game design & artist) <br/>
 Colette Paugame (Game design & artist) <br/>
 Florent Chardevel (Sound design) <br/>
 Clément Rondeau (Developer) <br/>
+
