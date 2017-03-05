@@ -31,7 +31,10 @@ code {
   }
 
   .gametitle {
+    font-size: $body-font-size;
     margin-bottom: 0.25em;
+    text-align: center;
+    font-style: italic;
   }
 
   ul, ol {
