@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rocketbean community game jam 2016"
-date:   2016-12-06 23:04:47 +0100
+date:   2016-12-05 23:04:47 +0100
 categories: personal_project
 thumb: placeholder.png
 ---

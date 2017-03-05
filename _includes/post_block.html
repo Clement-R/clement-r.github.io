@@ -5,7 +5,7 @@
 	    	<a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  	</h2>
 	  	<img src={{ site.url }}/assets/{{ post.thumb }} alt="" style="">
+	  	<a href={{post.page_link}} target="_blank"><img src={{ post.thumb }} alt="" style="max-width: 100%; height: auto;"></a>
 	  	<p>{{ post.excerpt | markdownify }}</p>
 	</div>
-  <!-- <a class="no-underline h5 bold text-accent" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a> -->
 </div>
