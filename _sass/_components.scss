@@ -30,6 +30,16 @@ code {
 
   }
 
+  .post-subtitle > a {
+    border-bottom: 2px solid;
+    color: $color-body-text;
+  }
+
+  .post-subtitle > a:hover {
+    text-decoration: none;
+    color: $color-title;
+  }
+
   .gametitle {
     font-size: $body-font-size;
     margin-bottom: 0.25em;
@@ -57,6 +67,12 @@ code {
       // max-width: (12 / 10 * 100%); // make image fill width of container on desktop
     }
 
+  }
+
+  #main-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
   }
 
   blockquote {

@@ -4,7 +4,7 @@
 		<h2 class="h3 lh-condensed mt-1">
 	    	<a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  	</h2>
-	  	<a href={{post.page_link}} target="_blank"><img src={{ post.thumb }} alt="" style="max-width: 100%; height: auto;"></a>
+	  	<a href={% if post.page_link %} {{post.page_link}} {% else %} {{ post.url | prepend: site.baseurl }} {% endif %} target="_blank"><img src={{ post.thumb }} alt="" style="max-width: 100%; height: auto;"></a>
   		{% if post.gametitle %}
   			<p class="gametitle">
 	  			<b>{{ post.gametitle }}</b>

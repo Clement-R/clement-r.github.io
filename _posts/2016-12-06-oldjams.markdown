@@ -1,22 +1,49 @@
 ---
 layout: 	  post
-title:  	  "Old solo game jams (2015-2016)"
+title:  	  "Old solo game jams"
 date:   	  2016-12-05 23:04:47 +0100
 categories:   personal_project
 thumb: 		  /assets/oldjams.png
 excerpt: |
   All the game jams of 2015 and 2016 that I've taken part in as a solo developer.
 ---
-Per hoc minui studium suum existimans Paulus, ut erat in conplicandis negotiis artifex dirus, unde ei Catenae inditum est cognomentum, vicarium ipsum eos quibus praeerat adhuc defensantem ad sortem periculorum communium traxit.
+During 2015 and 2016 I've attended few game jams in order to learn new things about game development and all its spectrum (art, sound design, game design).  
+This is why I've gone solo for these game jams, but I've also taken part in other game jams during 2016 where I've worked with a team.
 
-itch
-----
-Screensaver jam
-lowrez jam
+Most of these games are buggy and not as complete as I wanted at the end of the jam, but the goal was to learn game developement, game design and time management. Fail fast, learn quickly.
 
-gamejolt
---------
-Rocketbean community (nuts breaker, apprentissage unity)
-Familiar game jam (no characters, bases d'un TD)
-badbox art (prince pickle rescue team, bases d'un SHMUP)
-ludumdare 35 (shapeshifting gun, bases juicy (screenshake, aléatoire dans les balles, IA simple, feedback visuel, "boss fight"))
+The next jam titles are clickable and will lead you to the game page.
+
+{:.post-subtitle}
+#### [Ludum Dare 30](http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=39350)
+This game jam is special to me because it was the first one where I published my result.  
+The goal was just to ship something at the end, even if it's a 10s gameplay.
+
+{:.post-subtitle}
+#### [Screensaver jam](https://scarounet.itch.io/another-brick-in-the-screensaver)
+During this jam I wanted to learn about tweening and game feel.  
+The screensaver let me focus on graphical feedback and not interactions.
+
+{:.post-subtitle}
+#### [Badbox art](http://jams.gamejolt.io/badboxart/games/prince-pickle-rescue-team/136371)
+Along with the fun aspect of this jam, I wanted to create the basis of a shoot'em up game. It includes a way to easily create new weapons bullet patterns and wave patterns.
+
+{:.post-subtitle}
+#### [Familiar game jam](http://jams.gamejolt.io/familiargamejam6/games/fight-the-no-characters/138410)
+This jam was one of my worst, I got stuck on the theme and started to work lately in the weekend.  
+I took it as an opportunity to create the basis of a tower defense at least and work on a bit of pathfinding.
+
+{:.post-subtitle}
+#### [Ludum Dare 35](http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=39350)
+After learning and prototyping a lot of small things, I wanted to compile all those and create a more complete game.  
+For this game jam, I've tried to create a full level of a platformer and a boss fight.
+
+My biggest deception on this jam is to not having put more time on the art and level design parts. Simple animations and a better colour swatch would have been great ways to enhance the game visuals, and a more challenging level design could have increase the interest of the game.
+
+{:.post-subtitle}
+#### [Rocketbean community](http://jams.gamejolt.io/rbtvcgj/games/nuts-breaker/143356)
+The goal of this jam was for me to learn how to use Unity and a bit of game feel.  
+
+{:.post-subtitle}
+#### [Low Rez](https://scarounet.itch.io/doding-pirate)
+This was the last jam that I've made as a solo developer in 2016, it was a way to learn how to create a pixel art game in Unity.
