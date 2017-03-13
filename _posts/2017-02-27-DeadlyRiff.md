@@ -6,7 +6,7 @@ categories: personal_project
 thumb:      /assets/deadlyriff.png
 excerpt:    "Rhythm versus fighting game made for the AirConsole Contest 2017."
 ---
-Rhythm versus fighting game made for the AirConsole Contest 2017.
+Rhythm versus fighting game made for the AirConsole Contest 2017. Unfortunately we didn't make it to the top 10, but it was still a great project for a one month game.
 
 We were a team of 4 students :
 
