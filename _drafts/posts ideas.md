@@ -20,3 +20,5 @@ Devblog
 - Particle effects with sprites
 
 - A* (but it's Sebastian Lague tutorial but in 3D)
+
+- Setup a jekyll auto-regeneration (node.js ? python ?)
