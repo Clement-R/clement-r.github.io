@@ -25,11 +25,11 @@ During this jam I wanted to learn about tweening and game feel.
 The screensaver let me focus on graphical feedback and not interactions.
 
 {:.post-subtitle}
-#### [Badbox art](http://jams.gamejolt.io/badboxart/games/prince-pickle-rescue-team/136371)
+#### [Badbox art](http://gamejolt.com/games/prince-pickle-rescue-team/136371)
 Along with the fun aspect of this jam, I wanted to create the basis of a shoot'em up game. It includes a way to easily create new weapons bullet patterns and wave patterns.
 
 {:.post-subtitle}
-#### [Familiar game jam](http://jams.gamejolt.io/familiargamejam6/games/fight-the-no-characters/138410)
+#### [Familiar game jam](http://gamejolt.com/games/fight-the-no-characters/138410)
 This jam was one of my worst, I got stuck on the theme and started to work lately in the weekend.  
 I took it as an opportunity to create the basis of a tower defense at least and work on a bit of pathfinding.
 
@@ -41,7 +41,7 @@ For this game jam, I've tried to create a full level of a platformer and a boss 
 My biggest deception on this jam is to not having put more time on the art and level design parts. Simple animations and a better colour swatch would have been great ways to enhance the game visuals, and a more challenging level design could have increase the interest of the game.
 
 {:.post-subtitle}
-#### [Rocketbean community](http://jams.gamejolt.io/rbtvcgj/games/nuts-breaker/143356)
+#### [Rocketbean community](http://gamejolt.com/games/nuts-breaker/143356)
 The goal of this jam was for me to learn how to use Unity and a bit of game feel.  
 
 {:.post-subtitle}
