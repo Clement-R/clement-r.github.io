@@ -71,3 +71,12 @@ a:hover {
 .site-content {
   flex: 1;
 }
+
+#footer {
+  background: rgba(52,52,52,1);
+  color: white;
+
+  & a {
+    color: white;
+  }
+}

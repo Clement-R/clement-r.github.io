@@ -1,0 +1,80 @@
+#particles-js {
+	flex-grow: 1;
+
+	background: linear-gradient(to bottom, rgba(0,0,0,0.57) 0%, rgba(62,62,62,1) 100%), url("http://gamechurch.com/wp-content/uploads/2013/10/ss_a503d355053ab9547ae30e85313055ced4d589a4.1920x1080.jpg");
+
+	background-repeat:no-repeat;
+	background-position: 0% 75%;
+
+	/*background: rgba(0,0,0,0.57);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.57)), color-stop(100%, rgba(52,52,52,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#343434', GradientType=0 );*/
+}
+
+#projects {
+	flex-grow: 1;
+	background: rgba(62,62,62,1);
+}
+
+.site-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero {
+
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+
+	& ul {
+		justify-content: flex-end;
+		list-style: none;
+		  margin: 0 0 1.5rem 0;
+		  padding: 0;
+		display: flex;
+		& a {
+			padding: 1rem 2rem;
+		}
+	}
+
+	& li {
+		background-image: linear-gradient(
+			to bottom,
+			transparent 50%,
+			rgba(162,211,156, 1) 50%,
+			rgba(162,211,156,1) 95%,
+			rgba(124,197,118,1) 95%
+			);
+		background-size: 100% 200%;
+		background-position: top center;
+		color: #666;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		transition: all .25s ease-in-out;
+		border-bottom: 1px solid #ccc;
+		&:hover {
+			background-position: bottom center;
+			color: rgba(0,0,0,.75);
+		}
+		& a {
+			color: #fff;
+			display: block;
+			transition: all .25s ease-in-out;
+		}
+	}
+}
+
+nav > * {
+	flex: 0 0 auto;
+	width: 25%;
+}
