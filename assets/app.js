@@ -11,3 +11,20 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 	}
 });
 */
+
+/*
+
+$(document).ready(function(){
+
+	var grid = $('#projects-container').isotope({
+		itemSelector: '.project',
+		layoutMode: 'fitRows',
+		percentPosition: true
+	});
+
+	$('.projects-selector').on( 'click', function() {
+	  var filterValue = $(this).attr('data-filter');
+	  grid.isotope({ filter: filterValue });
+	});
+});
+*/
