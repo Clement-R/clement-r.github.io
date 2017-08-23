@@ -12,8 +12,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 });
 */
 
-/*
-
 $(document).ready(function(){
 
 	var grid = $('#projects-container').isotope({
@@ -27,4 +25,3 @@ $(document).ready(function(){
 	  grid.isotope({ filter: filterValue });
 	});
 });
-*/

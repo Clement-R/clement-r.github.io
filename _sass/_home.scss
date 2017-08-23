@@ -26,7 +26,7 @@
 nav {
 	display: flex;
 	flex-direction: row;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 
 	& ul {
 		width: 25%;
@@ -77,14 +77,14 @@ nav {
 }
 
 @keyframes fadein {
-    from {
-    	opacity: 0;
-    	transform: translateY(50px);
-    }
-    to   {
-    	opacity: 1;
-    	transform: translateY(0);
-    }
+	from {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	to   {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 #name {
@@ -122,16 +122,16 @@ nav {
 }
 
 #social {
-  margin: 20px;
-  text-align: center;
+	margin: 20px;
+	text-align: center;
 }
 
 .smGlobalBtn { /* global button class */
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
     border:2px solid #ddd; /* add border to the buttons */
     padding: 0px;
     text-decoration: none;
@@ -159,17 +159,17 @@ nav {
 }
 
 .twitterBtn:before{
-      font-family: "FontAwesome";
+	font-family: "FontAwesome";
       content: "\f099"; /* add twitter icon */
 
-}
+  }
 
-.twitterBtn:hover{
+  .twitterBtn:hover{
       // color: #00ABE3;
       // background: #fff;
       // border-color: #00ABE3;
       text-decoration: none;
-}
+  }
 
 /* twitter button class*/
 .githubBtn{
@@ -177,17 +177,32 @@ nav {
 }
 
 .githubBtn:before{
-      font-family: "FontAwesome";
+	font-family: "FontAwesome";
       content: "\f113"; /* add twitter icon */
 
-}
+  }
 
-.githubBtn:hover{
+  .githubBtn:hover{
       // color: #00ABE3;
       // background: #fff;
       // border-color: #00ABE3;
       text-decoration: none;
+  }
+
+#presentation {
+	a:hover {
+		text-decoration: none;
+		border-bottom: 1px solid white;
+		transition: border-color 0.3s ease-in-out;
+	}
+
+	a {
+		border-bottom: 1px solid transparent;
+		transition: border-color 0.3s ease-in-out;
+	}
 }
+
+/* PROJECTS SELECTOR */
 
 #projects {
 	flex-grow: 1;
@@ -203,8 +218,7 @@ nav {
 }
 
 #projects > div {
-	width: 60%;
-	justify-content: flex-end;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -220,42 +234,180 @@ nav {
 .projects-selector {
 	width: calc(100% / 3 - 10% / 2) !important;
 
-	border:2px solid #ddd; /* add border to the buttons */
+	border: 1px solid #ddd; /* add border to the buttons */
 	border-radius: 90px;
-	padding: 8px;
-
-	margin: auto;
 
 	text-align: center;
+
+	line-height: normal;
+
+	background-color: rgba(0, 0, 0, 0);
+	transition: background-color 0.3s ease-in-out;
+	color: white;
+
+	font-weight: 300;
 }
 
 .projects-selector:hover {
 	background-color: rgba(255, 255, 255, 1);
 	color: black;
+	transition: background-color 0.3s ease-in-out;
 }
+
+/* PROJECTS */
 
 #projects-container {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between !important;
 	flex-wrap: wrap;
+	flex-direction: row;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.project {
-	width: 30%;
-	height: auto;
+@media screen and (min-width: 600px) {
+	.project {
+		width: calc((100% / 3 - 1rem));
+		margin: 0.5rem;
+	}
 
-	border:2px solid #ddd; /* add border to the buttons */
-	border-radius: 10px;
-
-	padding: 2px;
-
-	margin-left: 1.5%;
-	margin-right: 1.5%;
-
-	margin-bottom: 3%;
+	.square-content {
+		p {
+			line-height: 1.5rem;
+		}
+	}
 }
 
-.project-title {
-	text-align: center;
+@media screen and (min-width: 1000px) {
+	.project {
+		width: calc((100% / 3 - 1rem));
+		margin: 0.5rem;
+	}
+
+	.square-content {
+		p {
+			line-height: 2rem;
+		}
+	}
 }
+
+.project > a {
+	display: block;
+	background: #fff;
+}
+
+.square-box {
+	position: relative;
+	overflow: hidden;
+
+	&:before {
+		content: '';
+		display: block;
+		padding-top: 100%;
+	}
+}
+
+.square-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align:center;  // old ie
+	font: 0/0 a;        // old ie
+	background: rgba(62,62,62,1);
+
+	&:hover {
+		h4, p {
+			opacity: 1;
+			transition: opacity 0.3s ease-in-out;
+		}
+
+		img {
+			opacity: 0.2;
+			transition: opacity 0.3s ease-in-out;
+		}
+	}
+
+	div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+		position: relative;
+		text-align: center;
+		font: 0/0 a;
+		vertical-align: middle;
+
+		.old-ie & {
+			display: inline-block;
+		}
+	}
+
+	h4 {
+		position: absolute;
+
+		top: 1%;
+		left: 0px;
+		width: 100%;
+
+		color: #fff;
+		font-size: 1.5vw;
+
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+	}
+
+	p {
+		color: #fff;
+		font-size: 1.5vw;
+
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+
+		box-sizing: border-box;
+		padding: 0;
+
+		width: 100%;
+
+		position: absolute;
+		bottom: 10%;
+		left: 0;
+
+		margin: 0 auto;
+
+		z-index: 20;
+		opacity: 0;
+		transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+	}
+
+	img {
+		margin: 0 auto;
+		text-align: center;
+		vertical-align: middle;
+		opacity: 1;
+		transition: opacity 0.3s ease-in-out;
+
+		&.horizontal {
+			width: 100%;
+		}
+
+		&.vertical {
+			height: 100%;
+			margin: 0;
+		}
+
+
+
+		.old-ie & {
+			display: inline-block;
+			max-height: 100%;
+			max-width: 100%;
+		}
+	}
+}
+
