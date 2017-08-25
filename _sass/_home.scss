@@ -6,16 +6,7 @@
 	background-repeat:no-repeat;
 	background-position: center 75%;
 
-	min-height: 50vh;
-
-	/*background: rgba(0,0,0,0.57);
-	background: -moz-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.57)), color-stop(100%, rgba(52,52,52,1)));
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
-	background: linear-gradient(to bottom, rgba(0,0,0,0.57) 0%, rgba(52,52,52,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#343434', GradientType=0 );*/
+	min-height: 45vh;
 }
 
 .site-content {
@@ -47,12 +38,11 @@ nav {
 	& li {
 		font-family: 'Lato', sans-serif;
 		font-weight: 400;
-		font-size: 11px;
+		font-size: 0.8rem;
 
 		background-image: linear-gradient(
 			to bottom,
 			transparent 50%,
-			rgba(162,211,156, 0) 50%,
 			rgba(162,211,156,0) 95%,
 			#fff 95%
 			);
@@ -64,6 +54,7 @@ nav {
 		text-decoration: none;
 		transition: all .25s ease-in-out;
 		border-bottom: 1px solid #ccc;
+
 		&:hover {
 			background-position: bottom center;
 			color: rgba(0,0,0,.75);
@@ -74,6 +65,30 @@ nav {
 			transition: all .25s ease-in-out;
 		}
 	}
+
+	#selected {
+		background-image: linear-gradient(
+			to bottom,
+			transparent 50%,
+			rgba(162,211,156,0) 95%,
+			$select-color 95%
+		);
+		color: $select-color;
+		border-color: $select-color;
+
+		& a {
+			color: $select-color;
+			font-weight: 900;
+		}
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 1000px) {
+
 }
 
 @keyframes fadein {
@@ -251,6 +266,8 @@ nav {
 	color: white;
 
 	font-weight: 300;
+
+	cursor: pointer; cursor: hand;
 }
 
 .projects-selector:hover {

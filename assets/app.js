@@ -14,6 +14,38 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
 $(document).ready(function(){
 
+	var pages = ["home", "blog", "contact"];
+
+	if(!$.inArray(sessionStorage.getItem('selectedNav'), pages) || sessionStorage.getItem('selectedNav') == null) {
+		sessionStorage.setItem('selectedNav', 'home');
+	}
+
+	$('#particles-js > nav > ul > li:eq(0)').on("click", function() {
+		sessionStorage.setItem('selectedNav', 'home');
+	});
+
+	$('#particles-js > nav > ul > li:eq(1)').on("click", function() {
+		sessionStorage.setItem('selectedNav', 'blog');
+	});
+
+	$('#particles-js > nav > ul > li:eq(2)').on("click", function() {
+		sessionStorage.setItem('selectedNav', 'contact');
+	});
+
+	switch(sessionStorage.getItem('selectedNav')) {
+		case "home":
+			$('#particles-js > nav > ul > li:eq(0)').attr("id", "selected");
+		break;
+
+		case "blog":
+			$('#particles-js > nav > ul > li:eq(1)').attr("id", "selected");
+		break;
+
+		case "contact":
+			$('#particles-js > nav > ul > li:eq(2)').attr("id", "selected");
+		break;
+	}
+
 	var grid = $('#projects-container').isotope({
 		itemSelector: '.project',
 		layoutMode: 'fitRows',

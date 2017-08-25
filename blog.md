@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Blog
+permalink: /blog/
 ---
 
 My blog, with a lot of cool articles

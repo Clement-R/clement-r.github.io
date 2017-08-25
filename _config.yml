@@ -28,6 +28,7 @@ markdown: kramdown
 theme: jekyll-swiss
 theme_color: custom
 gems:
+  - octopress-autoprefixer
   - jekyll-feed
 exclude:
   - Gemfile

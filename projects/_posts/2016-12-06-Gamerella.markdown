@@ -2,7 +2,7 @@
 layout: post
 title:  "Gamerella 2016"
 date:   2016-12-06 23:04:47 +0100
-categories: personal_project
+category: personal-project
 thumb: https://img.itch.io/aW1hZ2UvOTcyNDYvNDU2ODQ1LmpwZw==/original/YhOIjJ.jpg
 gametitle: "Welcome to Dalaka"
 excerpt: "Game made during the GAMERella at Poitiers (France)."
