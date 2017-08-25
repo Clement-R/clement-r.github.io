@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Deadly Riff"
+title:      "Low Rez jam"
 date:       2016-12-09 12:00:00 +0100
-category: personal-project
+category:	personal-project
 thumb:      /assets/deadly_riff.png
 excerpt:    "Rhythm versus fighting game made for the AirConsole Contest 2017."
 ---

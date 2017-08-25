@@ -1,31 +1,24 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+<div id="homepage-header">
+    {% include homepage_header.html %}
+</div>
 
-{% include head.html %}
-<body class="site">
+<div>
+    <div id="projects">
+        <div id="presentation"><p>I'm a student <a href="http://www.enjmin.fr/" target="_blank">@CNAM-Enjmin</a> and I love making video games.</p></div>
 
-    <div class="site-content">
+        <div id="projects-filters">
+            <div class="projects-selector" data-filter="*">All projects</div>
+            <div class="projects-selector" data-filter=".school-project">School projects</div>
+            <div class="projects-selector" data-filter=".personal-project">Personal projects</div>
+        </div>
 
-        {% include header.html %}
-
-        <div id="projects">
-            <div id="presentation"><p>I'm a student <a href="http://www.enjmin.fr/" target="_blank">@CNAM-Enjmin</a> and I love making video games.</p></div>
-
-            <div id="projects-filters">
-                <div class="projects-selector" data-filter="*">All projects</div>
-                <div class="projects-selector" data-filter=".school-project">School projects</div>
-                <div class="projects-selector" data-filter=".personal-project">Personal projects</div>
-            </div>
-
-            <div id="projects-container">
-                {% for post in site.categories.projects %}
-                    {% include post_block.html %}
-                {% endfor %}
-            </div>
+        <div id="projects-container">
+            {% for post in site.categories.projects %}
+                {% include post_block.html %}
+            {% endfor %}
         </div>
     </div>
-
-    {% include footer.html %}
-</body>
-
-</html>
+</div>

@@ -3,7 +3,7 @@ layout: 	  post
 title:  	  "Old solo game jams"
 date:   	  2016-12-05 23:04:47 +0100
 category:   personal-project
-thumb: 		  /assets/oldjams.png
+thumb: 		  /assets/old_jams.png
 excerpt: |
   All the game jams of 2015 and 2016 that I've taken part in as a solo developer.
 ---

@@ -20,29 +20,29 @@ $(document).ready(function(){
 		sessionStorage.setItem('selectedNav', 'home');
 	}
 
-	$('#particles-js > nav > ul > li:eq(0)').on("click", function() {
+	$('.hero > nav > ul > li:eq(0)').on("click", function() {
 		sessionStorage.setItem('selectedNav', 'home');
 	});
 
-	$('#particles-js > nav > ul > li:eq(1)').on("click", function() {
+	$('.hero > nav > ul > li:eq(1)').on("click", function() {
 		sessionStorage.setItem('selectedNav', 'blog');
 	});
 
-	$('#particles-js > nav > ul > li:eq(2)').on("click", function() {
+	$('.hero > nav > ul > li:eq(2)').on("click", function() {
 		sessionStorage.setItem('selectedNav', 'contact');
 	});
 
 	switch(sessionStorage.getItem('selectedNav')) {
 		case "home":
-			$('#particles-js > nav > ul > li:eq(0)').attr("id", "selected");
+			$('.hero > nav > ul > li:eq(0)').attr("id", "selected");
 		break;
 
 		case "blog":
-			$('#particles-js > nav > ul > li:eq(1)').attr("id", "selected");
+			$('.hero > nav > ul > li:eq(1)').attr("id", "selected");
 		break;
 
 		case "contact":
-			$('#particles-js > nav > ul > li:eq(2)').attr("id", "selected");
+			$('.hero > nav > ul > li:eq(2)').attr("id", "selected");
 		break;
 	}
 

@@ -1,9 +1,9 @@
 <div class="project {{ post.category }}">
-    <a href="#" title="Link to content">
+    <a href={% if post.page_link %} {{post.page_link}} {% else %} {{ post.url | prepend: site.baseurl }} {% endif %} {% if post.page_link %} target="_blank" {% else %} target="_self" {% endif %} title="Link to content">
         <div class="square-box">
             <div class="square-content">
                 <div>
-                    <img src="http://lorempicsum.com/futurama/500/500/5" alt="Test image" class="horizontal card-background">
+                    <img src="{{ post.thumb }}" class="horizontal">
                 </div>
                 <h4>{{ post.title }}</h4>
                 <p>{{ post.excerpt | markdownify }}</p>

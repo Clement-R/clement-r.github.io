@@ -39,7 +39,9 @@ $chalk-bright-gray: #b8b8b8;
 $chalk-brighter-white: #e8e8e8;
 
 // Config
-$color-background: $gray !default;
+$color-background: #2d2d2d !default;
+$color-background-gradient: #2d2d2d 100% !default;
+
 $color-dot-accent: $blue !default;
 $color-foreground: $white !default;
 $color-title: $blue !default;

@@ -70,11 +70,11 @@ a:hover {
 
 .site-content {
   flex: 1;
-  background: rgba(62,62,62,1);
+  background: $color-background;
 }
 
 #footer {
-  background: rgba(52,52,52,1);
+  background: $color-background;
   color: white;
 
   & li {
