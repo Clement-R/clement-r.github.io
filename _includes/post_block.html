@@ -6,7 +6,7 @@
                     <img src="{{ post.thumb }}" class="horizontal">
                 </div>
                 <h4>{{ post.title }}</h4>
-                <p>{{ post.excerpt | markdownify }}</p>
+                {{ post.excerpt | markdownify }}
             </div>
         </div>
     </a>
