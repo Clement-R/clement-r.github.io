@@ -14,6 +14,13 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
 $(document).ready(function(){
 
+	// Isotope
+	var grid = $('#projects-container').isotope({
+		itemSelector: '.project',
+		layoutMode: 'fitRows',
+		percentPosition: true
+	});
+
 	// Nav bar highlight
 	var pages = ["home", "blog", "contact"];
 
@@ -54,21 +61,7 @@ $(document).ready(function(){
 		sessionStorage.setItem('selectedFilter', 'all');
 	}
 
-	switch(sessionStorage.getItem('selectedFilter')) {
-		case "all":
-			$('.projects-selector:eq(0)').attr("id", "filter-selected");
-		break;
-
-		case "school":
-			$('.projects-selector:eq(1)').attr("id", "filter-selected");
-		break;
-
-		case "personal":
-			$('.projects-selector:eq(2)').attr("id", "filter-selected");
-		break;
-	}
-
-	$('.projects-selector').on("click", function() {
+	$('.projects-selector:eq(0)').on("click", function() {
 		// Remove id on others
 		$('.projects-selector').each(function(index){
 			$(this).removeAttr("id");
@@ -76,17 +69,53 @@ $(document).ready(function(){
 
 		// Add id on clicked div
 		$(this).attr("id", "filter-selected");
+
+		// Set session variable
+		sessionStorage.setItem('selectedFilter', 'all');
 	});
 
-	// Isotope
-	var grid = $('#projects-container').isotope({
-		itemSelector: '.project',
-		layoutMode: 'fitRows',
-		percentPosition: true
+	$('.projects-selector:eq(1)').on("click", function() {
+		// Remove id on others
+		$('.projects-selector').each(function(index){
+			$(this).removeAttr("id");
+		});
+
+		// Add id on clicked div
+		$(this).attr("id", "filter-selected");
+
+		// Set session variable
+		sessionStorage.setItem('selectedFilter', 'school');
+	});
+
+	$('.projects-selector:eq(2)').on("click", function() {
+		// Remove id on others
+		$('.projects-selector').each(function(index){
+			$(this).removeAttr("id");
+		});
+
+		// Add id on clicked div
+		$(this).attr("id", "filter-selected");
+
+		// Set session variable
+		sessionStorage.setItem('selectedFilter', 'personal');
 	});
 
 	$('.projects-selector').on( 'click', function() {
 	  var filterValue = $(this).attr('data-filter');
 	  grid.isotope({ filter: filterValue });
 	});
+
+	switch(sessionStorage.getItem('selectedFilter')) {
+		case "all":
+			$('.projects-selector:eq(0)').trigger( "click" );
+		break;
+
+		case "school":
+			$('.projects-selector:eq(1)').trigger( "click" );
+		break;
+
+		case "personal":
+			$('.projects-selector:eq(2)').trigger( "click" );
+		break;
+	}
 });
