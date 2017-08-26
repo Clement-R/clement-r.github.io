@@ -74,10 +74,11 @@ a:hover {
 }
 
 #footer {
+  display: flex;
+  justify-content: center;
   background: $color-background;
   color: white;
 
-  & li {
-
+  & div {
   }
 }

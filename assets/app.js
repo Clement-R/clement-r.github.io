@@ -14,6 +14,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
 $(document).ready(function(){
 
+	// Nav bar highlight
 	var pages = ["home", "blog", "contact"];
 
 	if(!$.inArray(sessionStorage.getItem('selectedNav'), pages) || sessionStorage.getItem('selectedNav') == null) {
@@ -46,6 +47,38 @@ $(document).ready(function(){
 		break;
 	}
 
+	// Project selectors highlight
+	var filters = ["all", "school", "personal"];
+
+	if(!$.inArray(sessionStorage.getItem('selectedFilter'), filters) || sessionStorage.getItem('selectedFilter') == null) {
+		sessionStorage.setItem('selectedFilter', 'all');
+	}
+
+	switch(sessionStorage.getItem('selectedFilter')) {
+		case "all":
+			$('.projects-selector:eq(0)').attr("id", "filter-selected");
+		break;
+
+		case "school":
+			$('.projects-selector:eq(1)').attr("id", "filter-selected");
+		break;
+
+		case "personal":
+			$('.projects-selector:eq(2)').attr("id", "filter-selected");
+		break;
+	}
+
+	$('.projects-selector').on("click", function() {
+		// Remove id on others
+		$('.projects-selector').each(function(index){
+			$(this).removeAttr("id");
+		});
+
+		// Add id on clicked div
+		$(this).attr("id", "filter-selected");
+	});
+
+	// Isotope
 	var grid = $('#projects-container').isotope({
 		itemSelector: '.project',
 		layoutMode: 'fitRows',

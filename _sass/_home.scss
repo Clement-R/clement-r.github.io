@@ -264,6 +264,12 @@ nav {
 	justify-content: space-between !important;
 
 	margin-bottom: 25px;
+
+	#filter-selected {
+		background-color: rgba(255, 255, 255, 1);
+		color: black;
+		transition: background-color 0.3s ease-in-out;
+	}
 }
 
 .projects-selector {
@@ -300,6 +306,8 @@ nav {
 
 	margin-left: auto;
 	margin-right: auto;
+
+	margin-bottom: 4%;
 }
 
 @media screen and (min-width: 600px) {
