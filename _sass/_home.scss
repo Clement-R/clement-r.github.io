@@ -463,7 +463,7 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 
-	font-weight: 400;
+	font-weight: 900;
 
 	form {
 		display: flex;
@@ -485,10 +485,19 @@ nav {
 
 	& input, textarea {
 		color: black;
+		border-style: none;
+	    box-shadow: 0 0 0 1px rgba(0, 0, 0, .09);
+	    padding-left: 1rem;
+	    font-family: 'Open Sans', sans-serif;
+	}
+
+	& input {
+		margin-bottom: 0.5rem;
 	}
 
 	& textarea {
 		height: 20rem;
+		padding-top: 0.5rem;
 		margin-bottom: 1rem;
 	}
 

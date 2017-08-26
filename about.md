@@ -9,10 +9,10 @@ permalink: /about/
 
 	<form method="POST" action="HIDDEN">
 		<label for="email">Email</label>
-		<input type="email" name="email" placeholder="Your email">
+		<input type="email" name="email" placeholder="Your email" required>
 
 		<label for="message">Message</label>
-		<textarea name="message" placeholder="Your message"></textarea>
+		<textarea name="message" placeholder="Your message" required></textarea>
 
 		<button type="submit" id="form-submit">Send</button>
 	</form>
