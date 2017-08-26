@@ -3,48 +3,33 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+<div id="blog">
+	<p>
+		My blog, with a lot of cool articles (one day).	
+	</p>
 
-My blog, with a lot of cool articles
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex autem, officiis quod distinctio alias, culpa consequatur adipisci minima qui deleniti odio, similique placeat odit illum repellat vel, consectetur non.
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minima alias officiis beatae. Similique enim, voluptatum. Laudantium iusto id provident dolore, vitae praesentium accusamus dolorem exercitationem, consequatur doloremque vel fugiat.
+	</p>
+</div>

@@ -18,7 +18,7 @@
 	background: linear-gradient(to bottom,
 		                        rgba(0,0,0,0.5) 0%,
 		                        $color-background-gradient);
-	min-height: 20vh;
+	min-height: 10vh;
 }
 
 .site-content {
@@ -288,7 +288,7 @@ nav {
 
 	font-weight: 300;
 
-	cursor: pointer; cursor: hand;
+	cursor: hand;
 }
 
 .projects-selector:hover {
@@ -456,3 +456,56 @@ nav {
 	}
 }
 
+#contact-form {
+	flex-grow: 3;
+
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-weight: 400;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	& * {
+		color: white;
+	}
+
+	& label, textarea {
+		display: block;
+	}
+
+	& input, textarea {
+		color: black;
+	}
+
+	& textarea {
+		height: 20rem;
+		margin-bottom: 1rem;
+	}
+
+	& button {
+		background:none;
+		border:none;
+		color:white;
+		cursor: pointer;
+	}
+}
+
+#blog {
+	flex-grow: 3;
+
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+	color: white;
+}

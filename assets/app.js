@@ -118,4 +118,13 @@ $(document).ready(function(){
 			$('.projects-selector:eq(2)').trigger( "click" );
 		break;
 	}
+
+	// Form obfuscation
+	$("#form-submit").on("click", function() {
+		// Obfuscate that email :D
+		var base64_email = 'cm9uZGVhdS5jbGVtZW50QGdtYWlsLmNvbQ==';
+		var base_url ="http://formspree.io/";
+		var action = base_url + atob(base64_email);
+		$("form").attr("action", action);
+	});
 });
