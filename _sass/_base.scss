@@ -6,33 +6,37 @@
  box-sizing: border-box !important;
  margin: 0; }
 
-input,
-select,
-textarea,
-button {
- font-family: inherit;
- font-size: inherit;
- line-height: inherit;
-}
+ input,
+ select,
+ textarea,
+ button {
+   font-family: inherit;
+   font-size: inherit;
+   line-height: inherit;
+ }
 
 
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+ body, h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre, hr,
+ dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
 }
 
 
 /**
  * Basic styling
  */
+ html {
+  overflow-y:scroll;
+}
+
 body {
-    font-family: $body-font-family;
-    font-size: $body-font-size;
-    line-height: 1.5;
-    color: $color-body-text;
-    background-color: #fff;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: 1.5;
+  color: $color-body-text;
+  background-color: #fff;
 }
 
 p {

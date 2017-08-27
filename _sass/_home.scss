@@ -270,6 +270,8 @@ nav {
 		color: black;
 		transition: background-color 0.3s ease-in-out;
 	}
+
+
 }
 
 .projects-selector {
@@ -288,13 +290,13 @@ nav {
 
 	font-weight: 300;
 
-	cursor: hand;
-}
+	cursor: pointer;
 
-.projects-selector:hover {
-	background-color: rgba(255, 255, 255, 1);
-	color: black;
-	transition: background-color 0.3s ease-in-out;
+	&:hover {
+		background-color: rgba(255, 255, 255, 1);
+		color: black;
+		transition: background-color 0.3s ease-in-out;
+	}
 }
 
 /* PROJECTS */
@@ -331,7 +333,7 @@ nav {
 
 	.square-content {
 		p {
-			line-height: 2rem;
+			// line-height: 2rem;
 		}
 	}
 }
@@ -368,14 +370,13 @@ nav {
 	flex-direction: column;
 
 	flex-shrink: 0;
-	flex-wrap: row;
 
 	max-width: 100%;
 
 	background-color: rgba(62,62,62,0);
 
 	&:hover {
-		background-color: rgba(62,62,62,0.8);
+		background-color: rgba(62,62,62,0.85);
 
 
 		h4, p {
@@ -417,12 +418,12 @@ nav {
 
 		flex-grow: 1;
 		color: #fff;
-		font-size: 1.5vw;
+		font-size: 1.2vw;
 
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
 
-		padding: 0;
+		padding: 0 7%;
 		margin: 0;
 
 		width: 100%;
