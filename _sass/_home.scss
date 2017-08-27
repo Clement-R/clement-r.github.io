@@ -339,11 +339,18 @@ nav {
 .project > a {
 	display: block;
 	background: #fff;
+
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .square-box {
-	position: relative;
+	display: flex;
 	overflow: hidden;
+
+	background-repeat: no-repeat;
+	background-size: contain;
 
 	&:before {
 		content: '';
@@ -353,49 +360,42 @@ nav {
 }
 
 .square-content {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	text-align:center;  // old ie
-	font: 0/0 a;        // old ie
-	background: rgba(62,62,62,1);
+	flex-grow: 1;
+
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+
+	flex-shrink: 0;
+	flex-wrap: row;
+
+	max-width: 100%;
+
+	background-color: rgba(62,62,62,0);
 
 	&:hover {
+		background-color: rgba(62,62,62,0.8);
+
+
 		h4, p {
 			opacity: 1;
-			transform: translateY(-130%);
+			transition: opacity 0.3s ease-in-out;
+		}
+
+		p {
+			opacity: 1;
+			transform: translateY(0%);
 			transition: opacity 0.3s, transform 0.3s ease-in-out;
 		}
 
-		img {
-			opacity: 0.2;
-			transition: opacity 0.3s ease-in-out;
-		}
-	}
-
-	div {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 100%;
-		width: 100%;
-		position: relative;
-		text-align: center;
-		font: 0/0 a;
-		vertical-align: middle;
-
-		.old-ie & {
-			display: inline-block;
-		}
+		transition: background-color 0.3s ease-in-out;
 	}
 
 	h4 {
-		position: absolute;
+		text-align: center;
+		flex-grow: 1;
 
-		top: 1%;
-		left: 0px;
 		width: 100%;
 
 		color: #fff;
@@ -404,56 +404,31 @@ nav {
 		font-family: 'Lato', sans-serif;
 		font-weight: 400;
 
+		margin: 0;
+		padding: 0;
+
 		opacity: 0;
 		transition: opacity 0.3s ease-in-out;
 	}
 
 	p {
+		text-align:  center;
+		transform: translateY(50%);
+
+		flex-grow: 1;
 		color: #fff;
 		font-size: 1.5vw;
 
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
 
-		box-sizing: border-box;
 		padding: 0;
+		margin: 0;
 
 		width: 100%;
 
-		position: absolute;
-		// bottom: 10%;
-		left: 0;
-
-		margin: 0 auto;
-
-		z-index: 20;
 		opacity: 0;
-		transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
-	}
-
-	img {
-		margin: 0 auto;
-		text-align: center;
-		vertical-align: middle;
-		opacity: 1;
-		transition: opacity 0.3s ease-in-out;
-
-		&.horizontal {
-			width: 100%;
-		}
-
-		&.vertical {
-			height: 100%;
-			margin: 0;
-		}
-
-
-
-		.old-ie & {
-			display: inline-block;
-			max-height: 100%;
-			max-width: 100%;
-		}
+		transition: bottom 0.3s, opacity 0.3s, transform 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
 	}
 }
 

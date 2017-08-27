@@ -5,7 +5,7 @@ date:   2016-12-07 23:30:00 +0100
 category: school-project
 thumb: /assets/preorder.png
 excerpt: |
-  Art installation where you discover an archive from an old civilization. By scratching the dust and moving along the fresco you will discover their story.
+  Art installation where you discover an archive from an old civilization.
 ---
 
 {:#main-image}
