@@ -1,0 +1,40 @@
+#project-content {
+	flex-grow: 9;
+	width: 50%;
+	margin: 0 auto;
+
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+
+	#project-informations {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+
+		border-bottom: 1px solid white;
+
+		margin-bottom: 5%;
+
+		* {
+			flex-grow: 1;
+		}
+
+		#project-title {
+			margin: 0;
+		}
+
+		#project-date {
+			text-align: right;
+		}
+	}
+
+	#post-content {
+		font-size: 1.2rem;
+
+		ul, ol {
+			padding-left: 3%;
+		}
+	}
+}
