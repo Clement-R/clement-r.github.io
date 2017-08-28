@@ -275,6 +275,7 @@ nav {
 }
 
 .projects-selector {
+	display: flex;
 	width: calc(100% / 3 - 10% / 2) !important;
 
 	border: 1px solid #ddd; /* add border to the buttons */
@@ -291,6 +292,12 @@ nav {
 	font-weight: 300;
 
 	cursor: pointer;
+
+	& span {
+		align-self: center;
+		justify-self: center;
+		margin: 0 auto;
+	}
 
 	&:hover {
 		background-color: rgba(255, 255, 255, 1);
@@ -312,7 +319,8 @@ nav {
 	margin-bottom: 4%;
 }
 
-@media screen and (min-width: 600px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 	.project {
 		width: calc((100% / 3 - 1rem));
 		margin: 0.5rem;
@@ -320,12 +328,13 @@ nav {
 
 	.square-content {
 		p {
-			line-height: 1.5rem;
+			line-height: 1rem;
 		}
 	}
 }
 
-@media screen and (min-width: 1000px) {
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 	.project {
 		width: calc((100% / 3 - 1rem));
 		margin: 0.5rem;
@@ -333,7 +342,21 @@ nav {
 
 	.square-content {
 		p {
-			// line-height: 2rem;
+			line-height: 1rem;
+		}
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.project {
+		width: calc((100% / 4 - 1rem));
+		margin: 0.5rem;
+	}
+
+	.square-content {
+		p {
+			line-height: 1.3rem;
 		}
 	}
 }
@@ -400,7 +423,7 @@ nav {
 		width: 100%;
 
 		color: #fff;
-		font-size: 1.5vw;
+		font-size: 1.3vw;
 
 		font-family: 'Lato', sans-serif;
 		font-weight: 400;
@@ -418,7 +441,7 @@ nav {
 
 		flex-grow: 1;
 		color: #fff;
-		font-size: 1.2vw;
+		font-size: 1vw;
 
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
