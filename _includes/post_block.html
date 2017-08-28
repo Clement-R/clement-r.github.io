@@ -1,5 +1,5 @@
 <div class="project {{ post.category }}">
-    <a href={% if post.page_link %} {{post.page_link}} {% else %} {{ post.url | prepend: site.baseurl }} {% endif %} {% if post.page_link %} target="_blank" {% else %} target="_self" {% endif %} title="Link to content">
+    <a href={% if post.page_link %} {{post.page_link}} {% else %} {{ post.url | prepend: site.baseurl }} {% endif %} {% if post.page_link %} target="_blank" {% else %} target="_self" {% endif %}>
         <div class="square-box" style="background-image: url({{ post.thumb }})">
             <div class="square-content">
                 <h4>{{ post.title }}</h4>
