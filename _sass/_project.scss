@@ -31,10 +31,18 @@
 	}
 
 	#post-content {
-		font-size: 1.2rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+
+		text-align: justify;
 
 		ul, ol {
 			padding-left: 3%;
+		}
+
+		strong {
+			color: #65c1ff;
 		}
 	}
 }
