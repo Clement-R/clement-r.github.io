@@ -1,12 +1,12 @@
 ---
 layout:     post
 title:      "Deadly Riff"
-date:       2016-12-09 12:00:00 +0100
+date:       2017-02-01 12:00:00 +0100
 category: personal-project
 thumb:      /assets/deadly_riff.png
 excerpt:    "Rhythm versus fighting game made for the AirConsole Contest 2017."
 ---
-Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017.        
+Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017.
 
 <br>
 
