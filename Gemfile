@@ -26,4 +26,5 @@ group :jekyll_plugins do
    gem 'execjs'
    gem 'therubyracer'
    gem 'jekyll-seo-tag'
+   gem 'jekyll-sitemap'
 end
