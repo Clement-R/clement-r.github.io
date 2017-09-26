@@ -12,7 +12,9 @@ Game made during the GAMERella at Poitiers (France).
 
 We were a team of 4 students :
 
-* Marie Lou Boisaubert (Game design & artist)
-* Colette Paugame (Game design & artist)
-* Florent Chardevel (Sound design)
+* Marie Lou Boisaubert (Game designer & artist)
+* Colette Paugame (Game designer & artist)
+* Florent Chardevel (Sound designer)
 * Clément Rondeau (Developer)
+
+The theme was : "Inter / Connections"

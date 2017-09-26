@@ -15,7 +15,6 @@ We were a team of 4 students :
 * Alexandre Cornudet (Artist)
 * Antoine Wert (Sound design)
 * Clément Rondeau (Developer)
-
 <br>
 
 <h2>Tasks</h2>
