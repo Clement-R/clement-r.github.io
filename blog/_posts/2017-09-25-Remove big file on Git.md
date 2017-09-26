@@ -7,4 +7,4 @@ thumb: 		/assets/gamerella.png
 excerpt: 	"How to remove a big file on Git and how to avoid or manage it with Git LFS."
 ---
 
-Lol.
+[Article still needs to be written]
