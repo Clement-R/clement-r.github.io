@@ -14,6 +14,25 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
 $(document).ready(function(){
 
+	// Firefox fix to set height of project boxes on homepage
+	window.addEventListener('resize', function(){
+		$(".project").each(function(){
+			$(this).css("height", $(this).css("width"));
+
+			$(this).find('*').each(function(){
+				$(this).css("height", $(this).css("width"));
+			});
+		});
+	}, true);
+
+	$(".project").each(function(){
+		$(this).css("height", $(this).css("width"));
+
+		$(this).find('*').each(function(){
+			$(this).css("height", $(this).css("width"));
+		});
+	});
+
 	// Isotope
 	var grid = $('#projects-container').isotope({
 		itemSelector: '.project',
