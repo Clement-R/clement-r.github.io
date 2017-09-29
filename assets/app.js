@@ -19,7 +19,19 @@ $(document).ready(function(){
 		$(".project").each(function(){
 			$(this).css("height", $(this).css("width"));
 
-			$(this).find('*').each(function(){
+			/*$(this).find('*').each(function(){
+				$(this).css("height", $(this).css("width"));
+			});*/
+
+			$(this).find('.project > a').each(function(){
+				$(this).css("height", $(this).css("width"));
+			});
+
+			$(this).find('.square-box').each(function(){
+				$(this).css("height", $(this).css("width"));
+			});
+
+			$(this).find('.square-content').each(function(){
 				$(this).css("height", $(this).css("width"));
 			});
 		});
@@ -28,7 +40,15 @@ $(document).ready(function(){
 	$(".project").each(function(){
 		$(this).css("height", $(this).css("width"));
 
-		$(this).find('*').each(function(){
+		$(this).find('.project > a').each(function(){
+			$(this).css("height", $(this).css("width"));
+		});
+
+		$(this).find('.square-box').each(function(){
+			$(this).css("height", $(this).css("width"));
+		});
+
+		$(this).find('.square-content').each(function(){
 			$(this).css("height", $(this).css("width"));
 		});
 	});
