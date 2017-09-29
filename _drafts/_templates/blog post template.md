@@ -1,6 +1,6 @@
 ---
-layout: blog_page
-title:  	"How to remove a big file on Git and how to avoid or manage it"
+layout: 	blog_page
+title:  	"Post title"
 date:   	2017-09-25 11:00:00 +0100
 category: 	blog
 thumb: 		/assets/gamerella.png
