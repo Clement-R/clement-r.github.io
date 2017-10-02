@@ -1,8 +1,8 @@
 ---
-layout:     post
+layout:     project_page
 title:      "Deadly Riff"
 date:       2017-02-01 12:00:00 +0100
-category: personal-project
+category: 	personal-project
 thumb:      /assets/deadly_riff.png
 excerpt:    "Rhythm versus fighting game made for the AirConsole Contest 2017."
 ---

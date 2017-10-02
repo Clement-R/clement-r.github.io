@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     project_page
 title:      "Low Rez jam"
 date:       2016-12-09 12:00:00 +0100
 category:	personal-project

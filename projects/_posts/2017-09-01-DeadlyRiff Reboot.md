@@ -1,16 +1,16 @@
 ---
-layout:     post
+layout:     project_page
 title:      "Deadly Riff"
 date:       2017-09-01 12:00:00 +0100
 category: 	personal-project
 thumb:      /assets/deadly_riff.png
 excerpt:    "Rhythm versus fighting game made during the summer 2017."
+abstract: |
+  Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017. The result was a good prototype but we wanted to push the idea further and see what we can get after a summer.
 ---
-Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017. The result was a good prototype but we wanted to push the idea further and see what we can get after a summer.
-
 <br>
 
-We were a team of 8 students this time :
+We were a team of 8 students :
 * Vincent LeMehautée (Project manager)
 * Charlotte Couder (Game designer)
 * Thaïs Arias (Game designer)

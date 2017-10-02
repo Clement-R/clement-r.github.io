@@ -1,12 +1,12 @@
 ---
-layout: post
-title:  "Gamerella 2016"
-date:   2016-12-06 23:04:47 +0100
-category: personal-project
-thumb: /assets/gamerella.png
-gametitle: "Welcome to Dalaka"
-excerpt: "Game made during the GAMERella at Poitiers (France)."
-page_link: "https://scarounet.itch.io/welcome-to-dalaca"
+layout: 	project_page
+title:  	"Gamerella 2016"
+date:   	2016-12-06 23:04:47 +0100
+category: 	personal-project
+thumb: 		/assets/gamerella.png
+gametitle: 	"Welcome to Dalaka"
+excerpt: 	"Game made during the GAMERella at Poitiers (France)."
+page_link: 	"https://scarounet.itch.io/welcome-to-dalaca"
 ---
 Game made during the GAMERella at Poitiers (France).
 
