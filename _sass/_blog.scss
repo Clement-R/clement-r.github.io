@@ -1,7 +1,13 @@
 .blog-block {
+	display: flex;
 	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	flex-direction: column;
+	width: 75%;
+	margin-bottom: 10px;
 
 	h2 {
+		font-family: "Lato", sans-serif;
 		font-weight: 400;
 		font-size: 1.5rem;
 	}
@@ -9,5 +15,52 @@
 	p {
 		font-weight: 300;
 		font-size: 1rem;
+	}
+
+	.border-bottom {
+		border-bottom: 1px dashed white;
+	}
+
+	a {
+		color: #bfdfff;
+	    text-decoration: none;
+	    transition: all .25s ease-in-out;
+	}
+
+	a:hover
+	{
+	    text-decoration:none;
+	    cursor:pointer;
+		color: #4fb4f8 !important;
+		transition: all .25s ease-in-out;
+	}
+
+	&:nth-child(odd) {
+		color: white;
+	}
+
+	&:nth-child(even) {
+		color: white;
+	}
+
+	.date {
+		text-align: end;
+	}
+}
+
+#post-content {
+	flex-grow: 9;
+	width: 50%;
+	margin: 0 auto;
+
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+
+	color: white;
+
+	h1 {
+		font-size: 1.5rem;
 	}
 }
