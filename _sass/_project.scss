@@ -21,8 +21,6 @@
 
 		border-bottom: 1px solid white;
 
-		margin-bottom: 5%;
-
 		* {
 			flex-grow: 1;
 		}
@@ -40,11 +38,11 @@
 		display: flex;
 		flex-direction: row;
 
-		padding-bottom: 4%;
+		padding-top: 2.5vh;
 
 		border-bottom: none;
 		background: linear-gradient(white,white) bottom no-repeat;
-		background-size: 85% 1px;
+		background-size: 75% 1px;
 
 		#abstract {
 			padding-right: 5%;
@@ -56,10 +54,53 @@
 		}
 
 		#infos {
-			border-left: 5px solid white;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			font-size: 0.9rem;
+
 			margin-left: 5%;
-			padding-left: 1%;
+
 			flex-basis: 30%;
+
+			*  {
+				border-left: 5px solid white;
+				padding-left: 5%;
+			}
+		}
+	}
+
+	#banner {
+		margin-top: 2vh;
+	}
+
+	#front {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 2vh;
+
+		* {
+			flex-basis: 48%;
+		}
+	}
+
+	#project-comp {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#team {
+		flex-basis: 38%;
+
+		ul {
+			padding-left: 3%;
+		}
+	}
+
+	#tasks {
+		flex-basis: 58%;
+
+		ul {
+			padding-left: 3%;
 		}
 	}
 
@@ -69,9 +110,5 @@
 		font-size: 1rem;
 
 		text-align: justify;
-
-		ul, ol {
-			padding-left: 3%;
-		}
 	}
 }

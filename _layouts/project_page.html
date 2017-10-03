@@ -29,11 +29,37 @@ layout: page
 		</div>
 	</div>
 
+	<img id="banner" src="https://pre00.deviantart.net/3c42/th/pre/i/2016/116/4/3/_drawn_to_life__blue_mountains_background_by_bakidance-da0clt2.png">
+
+	<div id="project-comp">
+		<div id="tasks">
+			<h2>Tasks</h2>
+			My main tasks on this project were :
+
+			<ul>
+				{% for task in page.tasks %}
+					<li> {{ task }} </li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div id="team">
+			<h2>The team</h2>
+			<ul>
+				{% for member in page.team %}
+					<li> {{ member.name }} ({{ member.role }})</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
 	<div id="post-content">
 		{{ content }}
 	</div>
 
-	<div id="team">
+	<div id="front">
+		<img src="https://placeholdit.co//i/500x500?">
+		<img src="https://placeholdit.co//i/500x500?">
 	</div>
 
 </article>
