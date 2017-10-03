@@ -162,23 +162,23 @@ nav {
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
-    border:2px solid #ddd; /* add border to the buttons */
-    padding: 0px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    font-weight: normal;
-    line-height: 2em;
+	border:2px solid #ddd; /* add border to the buttons */
+	padding: 0px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 2em;
 
-    border-radius: 27px;
-    -moz-border-radius:27px;
-    -webkit-border-radius:27px;
+	border-radius: 27px;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
 
-    margin-left: 10px;
+	margin-left: 10px;
 
-    transition: color .5s ease-in-out;
-    transition: border-color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+	transition: border-color .5s ease-in-out;
 }
 
 .smGlobalBtn:hover {
@@ -188,41 +188,32 @@ nav {
 	background-color: white;
 }
 
-/* twitter button class*/
-.twitterBtn{
-    // background: #00ABE3;
-}
-
 .twitterBtn:before{
 	font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
+	content: "\f099";
+}
 
-  }
-
-  .twitterBtn:hover{
-      // color: #00ABE3;
-      // background: #fff;
-      // border-color: #00ABE3;
-      text-decoration: none;
-  }
-
-/* twitter button class*/
-.githubBtn{
-    // background: #00ABE3;
+.twitterBtn:hover{
+	text-decoration: none;
 }
 
 .githubBtn:before{
 	font-family: "FontAwesome";
-      content: "\f113"; /* add twitter icon */
+  	content: "\f113";
+}
 
-  }
+.githubBtn:hover{
+	text-decoration: none;
+}
 
-  .githubBtn:hover{
-      // color: #00ABE3;
-      // background: #fff;
-      // border-color: #00ABE3;
-      text-decoration: none;
-  }
+.linkedinBtn:before {
+	font-family: "FontAwesome";
+  	content: "\f0e1";
+}
+
+.linkedinBtn:hover{
+	text-decoration: none;
+}
 
 #presentation {
 	a:hover {
