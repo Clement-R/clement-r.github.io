@@ -8,12 +8,6 @@
 	display: flex;
 	flex-direction: column;
 
-	img {
-		width: 100%;
-    	height: auto;
-    	margin: 2% 0% 0% 0%;
-	}
-
 	#project-header {
 		display: flex;
 		flex-direction: row;
@@ -74,16 +68,6 @@
 		margin-top: 2vh;
 	}
 
-	#front {
-		display: flex;
-		justify-content: space-between;
-		margin-top: 2vh;
-
-		* {
-			flex-basis: 48%;
-		}
-	}
-
 	#project-comp {
 		display: flex;
 		justify-content: space-between;
@@ -111,5 +95,20 @@
 		font-size: 1rem;
 
 		text-align: justify;
+	}
+
+	#front {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 2vh;
+
+		.screenshot {
+			flex-basis: 48%;
+		}
+
+		.screenshot img {
+			width: 100%;
+			height: auto;
+		}
 	}
 }
