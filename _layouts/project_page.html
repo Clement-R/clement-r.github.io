@@ -31,7 +31,7 @@ layout: page
 
 	<div id="banner">
 		{% if page.banner.type == "image" %}
-			<img id="banner" src={{ page.banner.src }}>
+			<img src={{ page.banner.src }}>
 		{% elsif page.banner.type == "video" %}
 			<div class="responsive-video">
 				<iframe src={{ page.banner.src }} width="640px" height="360px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -66,12 +66,11 @@ layout: page
 	</div>
 
 	<div id="front">
-		<div class="screenshot">
-			<img class="" src="https://placeholdit.co//i/500x500?">
-		</div>
-		<div class="screenshot">
-			<img class="" src="https://placeholdit.co//i/500x500?">
-		</div>
+		{% for screenshot in page.screenshots %}
+			<div class="screenshot">
+				<img class="" src= {{ screenshot }}>
+			</div>
+		{% endfor %}
 	</div>
 
 </article>
