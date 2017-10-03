@@ -66,11 +66,24 @@
 
 	#banner {
 		margin-top: 2vh;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
 	}
 
 	#project-comp {
 		display: flex;
 		justify-content: space-between;
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		li {
+			font-weight: 300;
+		}
 	}
 
 	#team {
@@ -90,20 +103,28 @@
 	}
 
 	#post-content {
-		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
+
+		width: 100%;
+
+		margin-top: 3.5vh;
 
 		text-align: justify;
 	}
 
 	#front {
 		display: flex;
+
+		flex-direction: row;
 		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+
 		margin-top: 2vh;
 
 		.screenshot {
-			flex-basis: 48%;
+			width: 33%;
 		}
 
 		.screenshot img {
