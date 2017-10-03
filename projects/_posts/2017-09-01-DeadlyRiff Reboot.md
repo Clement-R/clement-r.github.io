@@ -10,7 +10,7 @@ abstract: |
 ---
 <br>
 
-We were a team of 8 students :
+Team of 8 students :
 * Vincent LeMehautée (Project manager)
 * Charlotte Couder (Game designer)
 * Thaïs Arias (Game designer)
