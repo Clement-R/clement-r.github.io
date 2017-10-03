@@ -7,6 +7,10 @@ thumb:      /assets/deadly_riff.png
 
 excerpt:    "Arcade party game where you must capture buildings by surrounding them with your car."
 
+type: "Platformer action"
+platforms: "Windows"
+inputs: "Gamepad"
+
 abstract: |
   Crazy toy city is an **arcade party game** made for the Gamers Assembly 2017 game jam. The theme was : "City-game" and we got 48h.
 
