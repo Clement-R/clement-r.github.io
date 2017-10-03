@@ -1,7 +1,7 @@
 ---
 layout: 	  project_page
 title:  	  "Old solo game jams"
-date:   	  2016-12-05 23:04:47 +0100
+date:   	  2016-01-01 23:04:47 +0100
 category:     personal-project
 thumb: 		  /assets/old_jams.png
 excerpt: |
