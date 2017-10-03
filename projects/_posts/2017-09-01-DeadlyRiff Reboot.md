@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Deadly Riff"
+title:      "Deadly Riff reboot"
 date:       2017-09-01 12:00:00 +0100
 category: 	personal-project
 thumb:      /assets/deadly_riff.png
