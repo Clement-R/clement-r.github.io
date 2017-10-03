@@ -7,25 +7,17 @@ thumb:      /assets/deadly_riff.png
 excerpt:    "Rhythm versus fighting game made during the summer 2017."
 abstract: |
   Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017. The result was a good prototype but we wanted to push the idea further and see what we can get after a summer.
+team:
+  - {"name": "Vincent LeMehautée", "role": "Project manager"}
+  - {"name": "Charlotte Couder", "role": "Game designer"}
+  - {"name": "Thaïs Arias", "role": "Game designer"}
+  - {"name": "Alexandre Cornudet", "role": "Artist"}
+  - {"name": "Noémie SMZ", "role": "Artist"}
+  - {"name": "Yoann D'Orlandi", "role": "Artist"}
+  - {"name": "Antoine Wert", "role": "Sound designer"}
+  - {"name": "Thomas Fransisco", "role": "Developer"}
+  - {"name": "Clément Rondeau", "role": "Developer"}
+tasks:
+  - Most of the gameplay mechanics
+  - Wwise integration
 ---
-<br>
-
-Team of 8 students :
-* Vincent LeMehautée (Project manager)
-* Charlotte Couder (Game designer)
-* Thaïs Arias (Game designer)
-* Alexandre Cornudet (Artist)
-* Noémie SMZ (Artist)
-* Yoann D'Orlandi (Artist)
-* Antoine Wert (Sound designer)
-* Thomas Fransisco (Developer)
-* Clément Rondeau (Developer)
-<br>
-
-<h2>Tasks</h2>
-My main tasks on this project were :
-
-* Most of the gameplay mechanics
-* Wwise integration
-
-<br>
