@@ -8,7 +8,13 @@
 	display: flex;
 	flex-direction: column;
 
-	#project-informations {
+	img {
+		width: 100%;
+    	height: auto;
+    	margin: 2% 0% 0% 0%;
+	}
+
+	#project-header {
 		display: flex;
 		flex-direction: row;
 		align-items: baseline;
@@ -30,6 +36,33 @@
 		}
 	}
 
+	#project-infos {
+		display: flex;
+		flex-direction: row;
+
+		padding-bottom: 4%;
+
+		border-bottom: none;
+		background: linear-gradient(white,white) bottom no-repeat;
+		background-size: 85% 1px;
+
+		#abstract {
+			padding-right: 5%;
+			flex-basis: 66%;
+
+			strong {
+				color: #65c1ff;
+			}
+		}
+
+		#infos {
+			border-left: 5px solid white;
+			margin-left: 5%;
+			padding-left: 1%;
+			flex-basis: 30%;
+		}
+	}
+
 	#post-content {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
@@ -39,16 +72,6 @@
 
 		ul, ol {
 			padding-left: 3%;
-		}
-
-		strong {
-			color: #65c1ff;
-		}
-
-		img {
-			width: 100%;
-	    	height: auto;
-	    	margin: 2% 0% 0% 0%;
 		}
 	}
 }

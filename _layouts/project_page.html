@@ -1,0 +1,39 @@
+---
+layout: page
+---
+<article id="project-content">
+	<div id="project-header">
+		<h1 id="project-title">
+			{{ page.title }}
+		</h1>
+		<div id="project-date">
+			{{ page.date | date: "%b, %Y" }}
+		</div>
+	</div>
+
+	<div id="project-infos">
+		<div id="abstract">
+			{{ page.abstract | markdownify }}
+		</div>
+
+		<div id="infos">
+			<div id="type">
+				Type : Platformer action
+			</div>
+			<div id="platforms">
+				Platforms : Windows, Mac, Linux
+			</div>
+			<div id="inputs">
+				Inputs : Gamepad, keyboard
+			</div>
+		</div>
+	</div>
+
+	<div id="post-content">
+		{{ content }}
+	</div>
+
+	<div id="team">
+	</div>
+
+</article>
