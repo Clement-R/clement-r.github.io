@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div id="contact-form">
-	<p>Feel free to contact me for a question or an opportunity</p>
+	<p>Feel free to contact me for a question or an opportunity <a id="mad" href=""></a></p>
 
 	<form method="POST" action="HIDDEN">
 		<label for="email">Email</label>

@@ -158,12 +158,18 @@ $(document).ready(function(){
 		break;
 	}
 
-	// Form obfuscation
+	// Form and mail obfuscation
+	var base64_email = 'cm9uZGVhdS5jbGVtZW50QGdtYWlsLmNvbQ==';
+
 	$("#form-submit").on("click", function() {
 		// Obfuscate that email :D
-		var base64_email = 'cm9uZGVhdS5jbGVtZW50QGdtYWlsLmNvbQ==';
 		var base_url ="http://formspree.io/";
 		var action = base_url + atob(base64_email);
 		$("form").attr("action", action);
 	});
+
+	if($("#mad").length) {
+		$("#mad").text("@ " + atob(base64_email));
+		$("#mad").attr("href", "mailto:"+atob(base64_email));
+	}
 });
