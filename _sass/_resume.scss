@@ -1,0 +1,26 @@
+#resume {
+	flex-grow: 9;
+	width: 50%;
+	margin: 0 auto;
+
+	color: white;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	a {
+		width: 48%;
+		text-align: center;
+		text-decoration: none;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+}
