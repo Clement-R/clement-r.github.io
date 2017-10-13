@@ -61,7 +61,7 @@ layout: page
 		</div>
 	</div>
 
-	{% assign content = post.content | strip_newlines %}
+	{% assign content = page.content | strip_newlines %}
 	{% if content != "" %}
 		<div id="post-content">
 			{{ content }}
