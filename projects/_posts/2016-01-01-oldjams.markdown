@@ -6,6 +6,8 @@ category:     personal-project
 thumb: 		  /assets/old_jams.png
 excerpt: |
   All the game jams of 2015 and 2016 that I've taken part in as a solo developer.
+
+published: false
 ---
 During 2015 and 2016 I've attended few game jams in order to learn new things about game development and all its spectrum (art, sound design, game design).
 This is why I've gone solo for these game jams, but I've also taken part in other game jams during 2016 where I've worked with a team.
