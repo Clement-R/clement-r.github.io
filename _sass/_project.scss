@@ -57,9 +57,13 @@
 
 			flex-basis: 30%;
 
-			*  {
+			div  {
 				border-left: 5px solid white;
 				padding-left: 5%;
+			}
+
+			div b {
+				color: #65c1ff;
 			}
 		}
 	}
