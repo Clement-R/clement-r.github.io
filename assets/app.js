@@ -57,7 +57,8 @@ $(document).ready(function(){
 	var grid = $('#projects-container').isotope({
 		itemSelector: '.project',
 		layoutMode: 'fitRows',
-		percentPosition: true
+		percentPosition: true,
+		stagger: 30
 	});
 
 	// Nav bar highlight

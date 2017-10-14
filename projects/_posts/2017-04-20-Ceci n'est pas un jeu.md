@@ -28,7 +28,9 @@ tasks:
 screenshots: {"/assets/ceci_n_est_pas_un_jeu/1.png", "/assets/ceci_n_est_pas_un_jeu/2.png", "/assets/ceci_n_est_pas_un_jeu/4.png"}
 ---
 
+
 The main difficulty that I've encountered in this game was the capture system. To keep in memory the position that the player has been through, I've partitioned the world in a grid and I've saved the cells on which the player has driven.
+
 In a big compound array I've stored the building GameObject and the cells around it, if a player's positions array contains all the cells around one building then he captures it.
 
 Also, if a cell is going to be added to the player's positions array then we know that he looped and we can remove its path and check if he captures a building. 
