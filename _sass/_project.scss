@@ -81,6 +81,7 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 2vh;
+		font-size: 1.1rem;
 
 		h2 {
 			font-size: 1.5rem;
@@ -93,6 +94,7 @@
 
 	#team {
 		flex-basis: 38%;
+		font-size: 1.1rem;
 
 		ul {
 			padding-left: 3%;
@@ -109,13 +111,32 @@
 
 	#post-content {
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 1.2rem;
 
 		width: 100%;
 
 		margin-top: 3.5vh;
 
 		text-align: justify;
+
+		strong {
+			color: #65c1ff;
+		}
+	}
+
+	.onpage-screenshot {
+		text-align: center;
+		margin: 2% 0;
+	}
+
+	.onpage-screenshot .img-33 {
+		width: 33%;
+		height: auto;
+	}
+
+	.onpage-screenshot .img-100 {
+		width: 100%;
+		height: auto;
 	}
 
 	#front {
