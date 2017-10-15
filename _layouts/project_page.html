@@ -64,10 +64,9 @@ layout: page
 		</div>
 	</div>
 
-	{% assign cleaned_content = content | strip_newlines %}
-	{% if cleaned_content != "" %}
+	{% if page.content != "" %}
 		<div id="post-content">
-			{{ cleaned_content }}
+			{{ page.content }}
 		</div>
 	{% endif %}
 

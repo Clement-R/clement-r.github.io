@@ -24,9 +24,15 @@ github_username:  Clement-R
 
 # Build settings
 markdown: kramdown
-# theme: minima
+highlighter: rouge
+
 theme: jekyll-swiss
 theme_color: custom
+
+kramdown:
+  input: GFM
+  #syntax_highlighter: rouge
+  #hard_wrap: false
 
 gems:
   - octopress-autoprefixer
