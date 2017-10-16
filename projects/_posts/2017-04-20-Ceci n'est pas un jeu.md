@@ -10,6 +10,7 @@ excerpt:    "Arcade party game where you must capture buildings by surrounding t
 type: "Platformer action"
 platforms: "Windows"
 inputs: "Gamepad"
+tools: "Unity"
 
 abstract: |
   Crazy toy city is an **arcade party game** made for the Gamers Assembly 2017's game jam. The theme was : "City-game" and we got 48h.

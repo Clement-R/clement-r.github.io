@@ -11,6 +11,7 @@ excerpt: 	"Game made during the GAMERella 2016 game jam."
 type: "Platformer action"
 platforms: "Windows"
 inputs: "Gamepad"
+tools: "Unity"
 
 abstract: |
   Welcome to Dalaca is an **arcade game** made for the GAMERella game jam at Poitiers (France). The theme was : "Inter / Connections" and we got 48h.

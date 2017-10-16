@@ -4,9 +4,19 @@ title:      "Deadly Riff reboot"
 date:       2017-09-01 12:00:00 +0100
 category: 	personal-project
 thumb:      /assets/deadly_riff.png
+
 excerpt:    "Rhythm versus fighting game made during the summer 2017."
+
+type: "Rhythm versus fighting"
+platforms: "AirConsole (web browser)"
+inputs: "Smartphone"
+tools: "Unity / AirConsole"
+
 abstract: |
   Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017. The result was a good prototype but we wanted to push the idea further and see what we can get after a summer.
+
+banner: {"type": "image", "src": "/assets/deadly_riff/banner.png"}
+
 team:
   - {"name": "Vincent LeMehautée", "role": "Project manager"}
   - {"name": "Charlotte Couder", "role": "Game designer"}
@@ -17,7 +27,12 @@ team:
   - {"name": "Antoine Wert", "role": "Sound designer"}
   - {"name": "Thomas Fransisco", "role": "Developer"}
   - {"name": "Clément Rondeau", "role": "Developer"}
+
 tasks:
   - Most of the gameplay mechanics
   - Wwise integration
+
+screenshots: {"/assets/deadly_riff/1.png",
+              "/assets/deadly_riff/2.png",
+              "/assets/deadly_riff/3.png"}
 ---

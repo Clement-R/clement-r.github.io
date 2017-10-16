@@ -10,6 +10,7 @@ excerpt: 	"Game made during the GCJ game jam."
 type: "Platformer local multiplayer"
 platforms: "Windows"
 inputs: "Gamepad"
+tools: "Unity"
 
 abstract: |
   Chicken run is an **arcade local multiplayer game** made for the Grand Confiture de Jeu's game jam. The theme was : "Rules" and we got 48h.

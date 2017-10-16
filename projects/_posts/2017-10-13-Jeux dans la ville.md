@@ -11,6 +11,7 @@ excerpt: |
 type: "Interactive installation"
 platforms: "Windows / Android"
 inputs: "Smartphone"
+tools: "Unity / Wwise"
 
 abstract: |
   Mondrian Tondrian is an **interactive art installation** made during the "Game in the city" seminar that lasted a week. We wanted to create an installation that generate a procedurally generated music when scanning the Mondrian's painting colored cells. 
@@ -32,6 +33,7 @@ tasks:
   - Color detection with the smartphone camera
   - Network between the smartphones and the laptop
   - Wwise integration
+  - Website to show the project
 
 screenshots: {"/assets/mondrian_tondrian/1.JPG", "/assets/mondrian_tondrian/2.JPG", "/assets/mondrian_tondrian/3.JPG"}
 ---

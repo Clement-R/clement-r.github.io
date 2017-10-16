@@ -10,6 +10,7 @@ excerpt: 	"Game made during the Global game jam 2017."
 type: "Audio puzzle"
 platforms: "Windows"
 inputs: "Mouse"
+tools: "Unity / Wwise"
 
 abstract: |
   Pedalboard disorder is a **2D puzzle game** mixing Audio and logical problems. It was made during the Global game jam at Angoulême (France). The theme was : "Waves" and we got 48h.
