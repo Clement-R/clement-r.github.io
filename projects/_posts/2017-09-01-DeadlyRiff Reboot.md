@@ -8,9 +8,9 @@ thumb:      /assets/deadly_riff_reboot/thumb.png
 excerpt:    "Rhythm versus fighting game made during the summer 2017."
 
 type: "Rhythm versus fighting"
-platforms: "AirConsole (web browser)"
-inputs: "Smartphone"
-tools: "Unity / AirConsole"
+platforms: "Windows"
+inputs: "Gamepads"
+tools: "Unity / Wwise"
 
 abstract: |
   Deadly Riff is a **rhythm versus fighting game** made for the AirConsole Contest 2017. The result was a good prototype but we wanted to push the idea further and see what we can get after a summer.
