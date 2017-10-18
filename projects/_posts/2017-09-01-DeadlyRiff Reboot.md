@@ -45,8 +45,27 @@ screenshots: {"/assets/deadly_riff_reboot/1.png",
               "/assets/deadly_riff_reboot/7.png",
               "/assets/deadly_riff_reboot/8.png"}
 ---
-Editor On Fire file parser
+Editor On Fire is an open-source software used to create levels for the game "Frets On Fire", it's available on [Github](https://github.com/raynebc/editor-on-fire) under the BSD 3-clause license. Its project file format is available and to re-use it you need to read the file byte per byte and
 
-Long note mechanic 
+{% highlight csharp %}
+public class EOFUtility {
+  public static int bytesToInt32(byte[] bytes) {
+      return BitConverter.ToInt32(bytes, 0);
+  }
+  public static int bytesToInt16(byte[] bytes) {
+      return BitConverter.ToInt16(bytes, 0);
+  }
+  public static char bytesToChar(byte[] bytes) {
+      return BitConverter.ToChar(bytes, 0);
+  }
+}
+{% endhighlight %}
+
+How to get the bytes in a given range, I wanted to mimic the python list slice system.
+{% highlight csharp %}
+timingFormat = Convert.ToBoolean(file.Skip(20).Take(1).First());
+{% endhighlight %}
+
+Long note mechanic
 
 new gameplay mechanics : Super attack, Solo, Attack that follow the beat
