@@ -55,12 +55,14 @@ layout: page
 		</div>
 
 		<div id="team">
+			{% if page.team %}
 			<h2>The team</h2>
 			<ul>
 				{% for member in page.team %}
 					<li> {{ member.name }} ({{ member.role }})</li>
 				{% endfor %}
 			</ul>
+			{% endif %}
 		</div>
 	</div>
 
