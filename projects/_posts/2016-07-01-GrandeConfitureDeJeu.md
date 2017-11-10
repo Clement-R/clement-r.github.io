@@ -25,5 +25,7 @@ tasks:
   - 2D art
 
 screenshots: {"/assets/chicken_run/1.png", "/assets/chicken_run/2.png", "/assets/chicken_run/3.png"}
+
+project_url: "https://scarounet.itch.io/chicken-run"
 ---
 The main difficulty on this project was to create an arcade character-controller, it was also the first time that I tried to create a platformer game in Unity. The physic is not well tuned in the end, but I was quite happy with the result and our game idea.

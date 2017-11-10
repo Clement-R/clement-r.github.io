@@ -21,8 +21,6 @@ tasks:
   - Scrap and play YouTube videos
   - Play videos stocked on Dropbox
   - Ship the application on the Google Play and Apple Store
-
-screenshots: {}
 ---
 I've worked on this project as a freelance.
 

@@ -32,6 +32,8 @@ screenshots: {"/assets/gamerella_2016/1.png",
 			  "/assets/gamerella_2016/4.png",
 			  "/assets/gamerella_2016/5.png",
 			  "/assets/gamerella_2016/6.png"}
+
+project_url: "https://scarounet.itch.io/welcome-to-dalaca"
 ---
 You're the technician behind the immigration website of the Dalaca, try to keep it online as long as you can ! You will have to click on popup to close them, and you sometimes will have to write small programs to patch the server. Also the visitors are leaving data while they search the website, so you'll have to clean the server by hitting the "Refresh" button.
 
