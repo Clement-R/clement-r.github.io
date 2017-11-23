@@ -1,6 +1,6 @@
 ---
 layout: 	project_page
-title:  	"PROJET M2"
+title:  	"Atomic Lemon"
 date:   	2017-10-12 07:30:00 +0100
 category: 	school-project
 thumb: 		/assets/sana.png
@@ -18,9 +18,15 @@ abstract: |
 banner: {"type": "video", "src": "https://player.vimeo.com/video/210611376"}
 
 team:
-  - {"name": "Yoann D'Orlandi", "role": "Artist"}
-  - {"name": "Kévin Leclerc", "role": "Game designer"}
-  - {"name": "Soufian Maaté", "role": "Developer"}
+  - {"name": "Solène Bontemps", "role": "Artist"}
+  - {"name": "Bao Lin Vo", "role": "Artist"}
+  - {"name": "Lena Dobric", "role": "Game designer"}
+  - {"name": "Benjamin Hoibian", "role": "Game designer"}
+  - {"name": "Jean Eli", "role": "Producer"}
+  - {"name": "Antoine Wert", "role": "Sound designer"}
+  - {"name": "Thomas Fransisco", "role": "Developer"}
+  - {"name": "Fanny Prele", "role": "Developer"}
+  - {"name": "Aurélien XXXXXXXX", "role": "Developer"}
   - {"name": "Clément Rondeau", "role": "Developer"}
 
 tasks:
