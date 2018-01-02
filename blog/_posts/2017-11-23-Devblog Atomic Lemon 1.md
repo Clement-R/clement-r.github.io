@@ -25,9 +25,18 @@ It was hard to totaly change my environment and lose the effiency that I've gain
 
 <h2>What I've done so far</h2>
 
-- Movement
-- Dash
-- Custom jump and curve
+The first things I wanted to implement was the basis of the 3C (camera, control, character) to prototype quickly and show our designers and artists the possible camera angles we can imagine.
 
-- Combo system
-- Hit detection
+I then implemented the character movement (left, right and on depth), after that first prototype the designers choosed to lock the player on the Z axis, so there is no possibility to move in depth. And to add a little more fun to the movement I've added customizable dash so the designers can get a grip on how Unreal work, and what our workflow can be for the future.
+
+## SCREENSHOT MOVE
+## GIF MOVE
+
+## SCREENSHOT DASH
+
+With that in mind I've continued to work on Lemon's movement and added a custom jump thanks to the GDC video : ["Math for Game Programmers: Building a Better Jump
+"](https://www.youtube.com/watch?v=hG9SzQxaCm8), and give the ability to my designers to create the jump curve they want by modifying existing points.
+
+## SCREENSHOT JUMP CODE
+## SCREENSHOT JUMP CURVE
+## SCREENSHOT JUMP DEBUG IN EDITOR
