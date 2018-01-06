@@ -5,6 +5,7 @@ date:   	2017-11-23 22:00:00 +0100
 category: 	blog
 #thumb: 		/assets/gamerella.png
 excerpt: 	"1st entry of my devblog on the project Atomic Lemon."
+published:	false
 ---
 
 <h2>End of year project</h2>
