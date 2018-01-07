@@ -1,4 +1,4 @@
-#resume {
+#about {
 	flex-grow: 9;
 	width: 50%;
 	margin: 0 auto;
@@ -6,21 +6,56 @@
 	color: white;
 
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
 
-	a {
-		width: 48%;
-		text-align: center;
-		text-decoration: none;
+	#about-presentation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 
-		img {
-			width: 100%;
-			height: auto;
+		#about-me-intro {
+			margin-bottom: 1.5em !important;
+		}
+
+		#about-me {
+			width: 70%;
+			text-align: justify;
+		}
+
+		#about-picture {
+			width: 20%;
+
+			#main-picture {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	#resume {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		margin-top: 5%;
+
+		a {
+			width: 48%;
+			text-align: center;
+			text-decoration: none;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
 		}
 	}
 
 	a:hover {
 		text-decoration: none;
+	}
+
+	#about-presentation {
+
 	}
 }

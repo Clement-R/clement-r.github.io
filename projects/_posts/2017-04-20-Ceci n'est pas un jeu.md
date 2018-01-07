@@ -27,6 +27,8 @@ tasks:
   - 3D models integration
 
 screenshots: {"/assets/ceci_n_est_pas_un_jeu/1.png", "/assets/ceci_n_est_pas_un_jeu/2.png", "/assets/ceci_n_est_pas_un_jeu/4.png"}
+
+project_url: "https://mykonos.itch.io/crazy-toy-city"
 ---
 
 

@@ -29,6 +29,8 @@ tasks:
   - UI design and implementation
 
 screenshots: {"/assets/pedalboard_disorder/1.png", "/assets/pedalboard_disorder/2.png"}
+
+project_url: "https://globalgamejam.org/2017/games/pedalboard-disorder"
 ---
 This was the second time that I was using Wwise in a project. The main difficulty was to find a way to keep the main track and the solo track synchronised, for that we always play the solo track but we mute it. When the player press a play button we fade-in and fade-out at the end.
 
