@@ -70,10 +70,11 @@ layout: page
 		</div>
 	{% endif %}
 
-	<div id="front">
+	<div id="lightgallery">
 		{% for screenshot in page.screenshots %}
-			<div class="screenshot">
-				<img data-lity class="" src= {{ screenshot }}>
+			<div class="screenshot" data-src={{ screenshot }}>
+				<!-- <img data-lity class="" src= {{ screenshot }}> -->
+				<img src= {{ screenshot }}>
 			</div>
 		{% endfor %}
 	</div>

@@ -19,10 +19,6 @@ $(document).ready(function(){
 		$(".project").each(function(){
 			$(this).css("height", $(this).css("width"));
 
-			/*$(this).find('*').each(function(){
-				$(this).css("height", $(this).css("width"));
-			});*/
-
 			$(this).find('.project > a').each(function(){
 				$(this).css("height", $(this).css("width"));
 			});
@@ -173,4 +169,9 @@ $(document).ready(function(){
 		$("#mad").text("@ " + atob(base64_email));
 		$("#mad").attr("href", "mailto:"+atob(base64_email));
 	}
+
+	// Lightgallery
+	$('#lightgallery').lightGallery({
+		selector: '.screenshot'
+	});
 });
