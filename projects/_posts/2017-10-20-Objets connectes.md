@@ -6,7 +6,7 @@ category:  school-project
 thumb: 		 /assets/globe_trotter/thumb.png
 
 excerpt: |
-  During the "Connected objects" seminar that lasted a week, we've created a game that can be played withn an alternative controller.
+  During the "Connected objects" seminar that lasted a week, we've created a game that can be played with an alternative controller.
 
 type: "Sandbox game"
 platforms: "Windows"
@@ -14,7 +14,7 @@ inputs: "Alternative controller"
 tools: "Unity / Wwise"
 
 abstract: |
-  Globe Trotter is a **sandbox game** made during the "Connected objects" seminar that lasted a week. We wanted to create an installation that generate a procedurally generated music when scanning the Mondrian's painting colored cells.
+  Globe Trotter is a **sandbox game** made during the "Connected objects" seminar that lasted a week. We wanted to create a game that can be played by everyone with an inclusive controller.
 
 team:
   - {"name": "Solène Bontemps", "role": "Artist"}
