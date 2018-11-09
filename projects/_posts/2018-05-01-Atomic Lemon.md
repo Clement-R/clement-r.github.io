@@ -15,7 +15,7 @@ inputs: "Gamepad"
 abstract: |
   Atomic Lemon is a **3D side scrolling beat'em up game** where you play as Lemon, a young girl who fights for the salvation of her favela with her fists and with street art.
 
-banner: {"type": "video", "src": "https://www.youtube.com/v/Wh_TcsSIUKU"}
+banner: {"type": "video", "src": "https://www.youtube.com/watch?v=Wh_TcsSIUKU"}
 
 team:
   - {"name": "Solène Bontemps", "role": "Artist"}
