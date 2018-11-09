@@ -1,7 +1,7 @@
 ---
 layout: 	  project_page
 title:  	  "Atomic Lemon"
-date:   	  2017-10-12 07:30:00 +0100
+date:   	  2018-03-01 07:30:00 +0100
 category: 	school-project
 thumb: 		  /assets/atomic_lemon.png
 
@@ -15,7 +15,7 @@ inputs: "Gamepad"
 abstract: |
   Atomic Lemon is a **3D side scrolling beat'em up game** where you play as Lemon, a young girl who fights for the salvation of her favela with her fists and with street art.
 
-banner: {"type": "video", "src": "https://www.youtube.com/watch?v=Wh_TcsSIUKU"}
+banner: {"type": "video", "src": "https://www.youtube.com/v/Wh_TcsSIUKU"}
 
 team:
   - {"name": "Solène Bontemps", "role": "Artist"}
@@ -36,8 +36,6 @@ tasks:
   - UI integration
 
 screenshots: {"http://kevinreginaldi.fr/atomic/img/Web1.jpg", "http://kevinreginaldi.fr/atomic/img/Web3.jpg", "http://kevinreginaldi.fr/atomic/img/Web8.jpg"}
-
-video: {https://www.youtube.com/watch?v=mQK3NAliNR8}
 ---
 Atomic Lemon is our end of year school project consisting in making the vertical slice of a game in 4 months.
 
