@@ -11,6 +11,7 @@ excerpt: |
 type: "3D beat'em up game"
 platforms: "Windows"
 inputs: "Gamepad"
+tools: "Unreal / Wwise"
 
 abstract: |
   Atomic Lemon is a **3D side scrolling beat'em up game** where you play as Lemon, a young girl who fights for the salvation of her favela with her fists and with street art.
