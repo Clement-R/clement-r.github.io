@@ -39,7 +39,7 @@ screenshots: {"http://kevinreginaldi.fr/atomic/img/Web1.jpg", "http://kevinregin
 
 video: {https://www.youtube.com/watch?v=mQK3NAliNR8}
 
-published: true
+published: false
 ---
 Atomic Lemon is our end of year school project consisting in making the vertical slice of a game in 4 months.
 
